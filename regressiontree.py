@@ -72,7 +72,7 @@ feature_importance = pd.DataFrame({
 print("\nFeature Importance:")
 print(feature_importance)
 
-# Visualize the decision tree
+# Visualize the decision trees
 plt.figure(figsize=(20, 10))
 plot_tree(reg, 
           feature_names=X.columns,
